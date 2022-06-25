@@ -1,0 +1,41 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1654680247",
+        "python_version": "3.6.13 |Anaconda, Inc.| (default, Mar 16 2021, 11:37:27) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\nakat\\anaconda3\\envs\\ml-agents\\Scripts\\mlagents-learn ./Config/DogBrain.yaml --run-id=DogBrain-ppo-1--env=DogBrainX",
+        "mlagents_version": "0.17.0",
+        "mlagents_envs_version": "0.17.0",
+        "communication_protocol_version": "1.0.0",
+        "tensorflow_version": "2.4.1",
+        "end_time_seconds": "1654680347"
+    },
+    "total": 99.97717970000001,
+    "count": 1,
+    "self": 0.3519885000000045,
+    "children": {
+        "run_training.setup": {
+            "total": 0.2296128,
+            "count": 1,
+            "self": 0.2296128
+        },
+        "TrainerController.start_learning": {
+            "total": 99.3955784,
+            "count": 1,
+            "self": 0.0013234000000039714,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 99.393815,
+                    "count": 1,
+                    "self": 99.393815
+                },
+                "TrainerController._save_model": {
+                    "total": 0.00043999999999755346,
+                    "count": 1,
+                    "self": 0.00043999999999755346
+                }
+            }
+        }
+    }
+}
